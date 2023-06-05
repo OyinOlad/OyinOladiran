@@ -1,3 +1,4 @@
+// Scrolling and Active Navigation Link
 let sections = document.querySelectorAll('section');
 let navlinks = document.querySelectorAll('header nav a');
 let header = document.querySelector('header');
@@ -20,6 +21,7 @@ window.onscroll = () => {
     header.classList.toggle('sticky', window.scrollY > 100);
 };
 
+// Animation with ScrollReveal
 ScrollReveal({
     reset: true,
     distance: '80px',

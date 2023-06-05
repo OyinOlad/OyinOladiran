@@ -168,54 +168,57 @@ gap: 0.5rem;
 }
 
 /* My Ux skilss */
+/* My Ux skilss */
 .flexContainer {
 	display: flex;
-	align-items: center ;
-	
-	
-
+	justify-content: center;
+	align-items: center;
 }
+
 .mySkills {
 	font-style: normal;
 	align-items: center;
-  }
-  
-  
-  .flexContainer > div {
+}
+
+.flexContainer > div {
 	width: 200px;
 	height: 100px;
-    margin: 3rem 1.5rem 3rem 0;
+	margin: 3rem 1.5rem;
 	align-items: center;
 	justify-content: center;
-	box-sizing: border-box, ;
+	box-sizing: border-box;
 	border: 1px solid #ac8cc2;
 	box-shadow: #f0cee2;
 	background-color: #AC8CC2;
-	border-bottom-style: groove ;
+	border-bottom-style: groove;
 	border-radius: 4%;
-    font-size: 10px;
+	font-size: 10px;
 	text-align: center;
-	
 	font-weight: bold;
-	
-  }
-  
-  .flexContainer > div img {
-	width: 3rem;
-    height: 3rem;
-    background: white;
-    border: .2rem solid  ;
-    border-radius: 60%;
-    font-size: 2rem;
-    color: white; 
- 
+}
 
-  }
-  
-  .mySkills h1{
+.flexContainer > div img {
+	width: 3rem;
+	height: 3rem;
+	background: white;
+	border: .2rem solid;
+	border-radius: 60%;
+	font-size: 2rem;
+	color: white;
+}
+
+.mySkills h1 {
 	text-align: center;
 	margin-bottom: 1.5rem;
-  }
+}
+
+.mySkills {
+	background-color: #f0cee2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 
   @media screen and (max-width: 600px) {
 	.flexContainer {
