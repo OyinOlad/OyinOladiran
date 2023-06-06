@@ -6,18 +6,23 @@
 	outline: none;
 	border: none;
 	scroll-behavior:smooth;
-
+	font-family: 'Lato', sans-serif;
 }
 	:root{
 		color:white;
-		font-family: 'Lato', sans-serif;
+		
 	}
 	
+	html{
+		font-size: 62.5%;
+	
+	}
   body{
 	background-image:linear-gradient( -180deg,#f0cee2 30%, #42278f 100%);
 
 
   }
+
 
 section {
 	min-height: 100vh;
@@ -50,6 +55,13 @@ section {
 	align-items: center;
 	z-index: 100;
 }
+.logo {
+	font-size: 4.5rem;
+	color: white;
+	font-weight: 600;
+	cursor: default;
+    text-decoration: none;
+}
 	
 .header.sticky {
 	border-bottom: .1rem solid rgba(0,0,0,.2);
@@ -59,16 +71,15 @@ section {
 	justify-content: center;
 	align-items: center;
 
-  .home-img{
-	width: 35vw;
-    }
+ }
+ 
  .span{ 
 	color:white;
 
  }
 
 
- }
+ 
  .home-content h3 {
 	font-size: 2.2rem;
 	font-weight:700;
@@ -135,90 +146,90 @@ transition: .5s ease;
 	
 /* About me */
 .about {
-
+display:inline-flex;
 justify-content: center;
 align-items: center;
-gap: 0.5rem;
+padding-left: 1rem;
+
+
 
 }
-.about.img img{
-	width: 35vw;
+
+
+.about-img img{
+	width: 200px;
+	display: flex;
+	
 }
 
-.heading {
+.heading{
+	padding: 20px;
+	margin: 20px;
+
+}
+.heading h2 {
 	text-align:center;
-	font-size:  3.6em;
+	font-size:  2.6em;
     font-weight: 600;
 }
 
-.about-content h2{
-	text-align: left;
-	line-height: 1.2;
 
-	
-}
-.about-content h3{
-	font-size: 2.6rem;
-	text-align: center;
-    
-}
-.about-content p{
-	font-size: 1.6rem;
+.heading p{
+	font-size: 1.5rem;
 	margin: 2rem 0 3rem;
+	text-align: center;
+	justify-content: center;
 }
 
-/* My Ux skilss */
 /* My Ux skilss */
 .flexContainer {
 	display: flex;
-	justify-content: center;
-	align-items: center;
-}
+	align-items: center ;
+	
+	
 
+}
 .mySkills {
 	font-style: normal;
 	align-items: center;
-}
-
-.flexContainer > div {
+  }
+  
+  
+  .flexContainer > div {
 	width: 200px;
 	height: 100px;
-	margin: 3rem 1.5rem;
+    margin: 3rem 1.5rem 3rem 0;
 	align-items: center;
 	justify-content: center;
-	box-sizing: border-box;
+	box-sizing: border-box, ;
 	border: 1px solid #ac8cc2;
 	box-shadow: #f0cee2;
 	background-color: #AC8CC2;
-	border-bottom-style: groove;
+	border-bottom-style: groove ;
 	border-radius: 4%;
-	font-size: 10px;
+    font-size: 10px;
 	text-align: center;
+	
 	font-weight: bold;
-}
-
-.flexContainer > div img {
+	
+  }
+  
+  .flexContainer > div img {
 	width: 3rem;
-	height: 3rem;
-	background: white;
-	border: .2rem solid;
-	border-radius: 60%;
-	font-size: 2rem;
-	color: white;
-}
+    height: 3rem;
+    background: white;
+    border: .2rem solid  ;
+    border-radius: 60%;
+    font-size: 2rem;
+    color: white; 
+ 
 
-.mySkills h1 {
+  }
+  
+  .mySkills h1{
 	text-align: center;
 	margin-bottom: 1.5rem;
-}
-
-.mySkills {
-	background-color: #f0cee2;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
+  }
 
   @media screen and (max-width: 600px) {
 	.flexContainer {
